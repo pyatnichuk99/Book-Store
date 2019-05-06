@@ -1,0 +1,111 @@
+.content_st{
+    padding: 0 5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.checkboxing_year{
+    padding-left:5%;
+    padding-top: 10%;
+    line-height: 2.5;
+    float: left;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.search input{
+    display: block;
+    background: url('https://s3.amazonaws.com/iconbros/icons/icon_pngs/000/000/220/original/search.png?1510300432') no-repeat 3px 1px;
+    background-size:auto 90%;
+    border: 1px;
+    padding: 5px 5px 5px 40px;
+    height: 15px;
+margin-left: auto;
+margin-right: 7%;
+}
+.search{
+
+    padding-top: 3%;
+
+}
+
+.one img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    float: left;
+}
+.one{
+    display: block;
+    padding-top:6%;
+    padding-right: 5%;
+    padding-left: 25%;
+}
+.one p{
+    margin: 0;
+    padding: 18px 0;
+}
+
+.book img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    float: left;
+}
+.book-img{
+  background:url(../bookig.png) no-repeat;
+  margin-right: 20px;
+}
+.book{
+    padding-right: 5%;
+    display: block;
+    padding-left: 25%;
+    padding-top: 5%;
+}
+.book p{
+    margin: 0;
+    padding: 18px 0;
+}
+.sylka{
+    padding-top: 10px;
+}
+.prewier{
+    padding-left:0;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-style: oblique;
+    font-weight: bold;
+}
+.rating_block {
+    width: 125px;
+    height: 25px;
+    float: left;
+  }
+  .rating_block input[type="radio"] {
+    display: none;
+  }
+  .label_rating {
+    float: right;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(https://simplamarket.com/files/uploads/rating.png) no-repeat 50% 0;
+    cursor: pointer;
+  }
+
+  .rating_block .label_rating:hover,
+  .rating_block .label_rating:hover ~ .label_rating,
+  .rating_block input[type="radio"]:checked ~ .label_rating
+  {
+    background-position: 50% -25px;
+  }
